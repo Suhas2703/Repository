@@ -10,7 +10,7 @@ class Books {
 		this.price=price;
 		this.isbn=isbn;
 	}
-	void thriller()
+	void genre(String x)
 	{
 		System.out.println(name+" this book is of thriller genre");
 	}
