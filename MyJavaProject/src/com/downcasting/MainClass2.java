@@ -6,15 +6,15 @@ class MainClass2 {
 		System.out.println(obj.i);
 		if(obj instanceof B)
 			System.out.println(((B)obj).j);
-		if(obj instanceof C)
-			System.out.println(((C)obj).k);
+		if(obj instanceof C2)
+			System.out.println(((C2)obj).k);
 		System.out.println("*************");
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		A ob1=new A(10);
 		B ob2=new B(10,15);
-		C ob3=new C(1,2,3);
+		C2 ob3=new C2(1,3);
 		display(ob1);
 		display(ob2);
 		display(ob3);
