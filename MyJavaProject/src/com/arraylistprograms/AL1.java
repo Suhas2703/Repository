@@ -1,4 +1,4 @@
-package com.arraylist;
+package com.arraylistprograms;
 import java.util.ArrayList;
 class AL1 {
 
