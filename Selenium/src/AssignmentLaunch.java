@@ -13,10 +13,10 @@ public class AssignmentLaunch {
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.facebook.com/");
 	    //driver.switchTo().window(tabs.get(1));
-	    driver.navigate().to("https://www.instagram.com/");
+	    driver.navigate().to("https://www.testyantra.com/");
 		// driver.switchTo().window(tabs.get(2));
 		driver.navigate().to("https://www.flipkart.com/");
-		driver.navigate().to("https://www.amazon.com/");
+		driver.navigate().to("https://www.qspiders.com/");
 		driver.navigate().to("https://www.myntra.com/");
 		Thread.sleep(2000);
 		driver.quit();
