@@ -10,8 +10,7 @@ public class AssignmentLaunch {
 		System.setProperty("webdriver.chrome.driver", ".\\software\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		//ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		driver.manage().window().maximize();
-		driver.navigate().to("https://www.facebook.com/");
+		 
 	    //driver.switchTo().window(tabs.get(1));
 	    driver.navigate().to("https://www.testyantra.com/");
 		// driver.switchTo().window(tabs.get(2));

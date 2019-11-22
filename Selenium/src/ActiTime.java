@@ -14,6 +14,7 @@ class ActiTime {
 		driver.findElement(By.name("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		driver.findElement(By.id("loginButton")).click();
+		Thread.sleep(2000);
 		String l1 = driver.getTitle();
 		System.out.println(l1);
 		if(l==l1)

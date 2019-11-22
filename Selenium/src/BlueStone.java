@@ -9,8 +9,9 @@ public class BlueStone {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.bluestone.com/");
-		driver.findElement(By.id("login")).click();
-		//Thread.sleep(1000);
-		driver.findElement(By.id("signup-quik")).click();
+		driver.findElement(By.id("signup")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("userName")).sendKeys("Batman");
+		driver.findElement(By.name("submitAccount")).click();
 	}
 }
