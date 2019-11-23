@@ -11,9 +11,9 @@ public class GoogleSuggestionClick {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.google.com/");
-		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("java");
+		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Avengers");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//span[contains(.,'java')]/b[contains(.,' download')]")).click();
+		driver.findElement(By.xpath("//span[contains(.,'avengers')]/b[contains(.,'series')]")).click();
 		
 	}
 }
